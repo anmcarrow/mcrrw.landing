@@ -54,7 +54,7 @@ a:hover, a:focus {
 /* top menu */
 
 nav {
-	margin: auto;
+	margin: 30px auto;
         text-align: center;
 	}
 
@@ -64,17 +64,20 @@ nav a {
 
 nav ul {
     display: inline-block;
-    text-align: justify;
+    margin: auto;
 }
 
 nav li {
+    margin: auto;
+    text-align: center;
+    /*    border: solid #404040 1.5px; */
     list-style-position: inside;
-    font: 35px 'Open Sans Condensed';
+    font: 30px 'Open Sans Condensed';
 }
 
 .top-menu li {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .top-menu li.active {
@@ -93,10 +96,10 @@ nav li:hover {
 
 #logo {
 	display: block;
-	margin: 15% auto 10px;
+	margin: 10% auto 100px;
         text-align: center;
-	width: 130px;
-	height: 145px;
+	width: 155px;
+	height: 175px;
 	background: url(../img/logo.svg);>
 	}
 
@@ -106,9 +109,9 @@ nav li:hover {
 .social {
     text-align: center;
     text-decoration: none;
-    margin: 0;
-    font-size: 25px;
-    padding: 10px 10px;
+    margin: 30px auto;
+    font-size: 32px;
+    padding: 3%;
     	}
 
 .social ul {
@@ -119,14 +122,19 @@ nav li:hover {
 }
 
 .social li{
-    margin: 0;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    border: solid 0px;
+    border-radius: 90px;
     display: inline-block;
     list-style: none;
-    padding: 10px 10px;
+    padding: 5px 2px 5px 2px;
 }
 
 .social li:hover {
     color: #fff;
+    font-size: 30px;
 }
 
 /* shared block */
@@ -169,5 +177,16 @@ code, pre {
 
 #wrapper {
 	max-width: 900px;
+        height: 100%;
         margin: auto;
 }
+
+footer {
+	margin: auto;
+        text-align: center;
+	  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+	}
