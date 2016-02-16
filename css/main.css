@@ -153,3 +153,9 @@ footer {
   width: 100%;
   height: 50px;
 	}
+
+.footer-coppyrights {
+	font-family: 'Open Sans Condensed', serif;
+	font-weight: 300;
+	font-size: 16px;
+}
