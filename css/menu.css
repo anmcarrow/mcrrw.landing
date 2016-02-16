@@ -15,17 +15,14 @@ nav ul {
 }
 
 nav li {
-    margin: auto;
     text-align: center;
     display: inline-block;
-    border: solid 1.5px;
-    border-color: #fff;
+    border: solid 1.5px #464646;
     opacity: 0.5;
     list-style-position: inside;
     font: 28px 'Open Sans Condensed';
     width: 90px;
     padding: 2px 5px;
-    border: solid 1.5px;
     margin: 5px;
 }
 

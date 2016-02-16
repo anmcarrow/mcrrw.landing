@@ -59,8 +59,7 @@ margin: 8%;
 
 logo {
 	display: block;
-/*	margin: 12% auto 100px; */
-	margin: auto;
+	margin: 17% auto 100px;
         text-align: center;
 	width: 155px;
 	height: 175px;
@@ -97,7 +96,7 @@ logo {
 }
 
 .social li:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     font-size: 31px;
 }
 
