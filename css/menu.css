@@ -1,8 +1,9 @@
 /* top menu */
 
 nav {
-	margin: 30px auto;
-        text-align: center;
+	margin: 30px auto 0;
+        text-align: justify;
+	max-width: 500px;
 	}
 
 nav a {
@@ -11,6 +12,8 @@ nav a {
 
 nav ul {
     display: inline-block;
+    width: 100%;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -20,13 +23,13 @@ nav li {
     border: solid 1.5px #464646;
     opacity: 0.5;
     list-style-position: inside;
-    font: 28px 'Open Sans Condensed';
-    width: 90px;
-    padding: 2px 5px;
-    margin: 5px;
+    font: 24px 'Open Sans Condensed';
+    width: 70px;
+    padding: 2px 10px;
+    margin: 0 2px 0 2px;
 }
+
 
 nav li:hover {
      opacity: 0.9;
 }
-
