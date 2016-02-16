@@ -5,12 +5,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
 	background: #221f1a;
-	background-image: url(../img/back1.jpg);
+	background-image: url(../img/back2.jpg);
 	font-family: 'Open Sans Condensed', serif;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 27px;
-	color: #404040;
+	color: #464646;
 	text-rendering: optimizeLegibility;
 }
 
@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans Condensed';
-	color: #a2a2a2;
+	color: #464646;
 	margin-bottom: 10px;
 	margin-top: 25px;
 	    text-align: center;
@@ -39,7 +39,7 @@ h2 {
 }
 
 a { 
-    color: #a2a2a2;
+    color: #464646;
     text-decoration: none;
     text-transform: uppercase;
     -moz-transition-duration: 0.1s;
@@ -47,7 +47,7 @@ a {
 }
 
 a:hover, a:focus { 
-    color: #fff;
+    color: #000;
 }
 
 /* top menu */
@@ -126,13 +126,11 @@ logo {
 .social li{
     font-size: 30px;
     font-family: 'FontAwesome';
-    color: #fff;
+    color: #000000;
     opacity: 0.4;
     margin: auto;
-    width: 40px;
+    width: 35px;
     height: 35px;
-    border: solid 0px;
-    border-radius: 90px;
     display: inline-block;
     list-style: none;
     padding: 2px;
