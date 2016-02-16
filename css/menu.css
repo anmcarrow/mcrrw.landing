@@ -31,5 +31,9 @@ nav li {
 
 
 nav li:hover {
-     opacity: 0.9;
+     opacity: 1.0;
+}
+
+nav li.active {
+opacity: 0.8;
 }
