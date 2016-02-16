@@ -1,2 +1,3 @@
-https://design.google.com/icons/
-http://fontello.com/
+TODO:
+
+Не забыть поправить наползание футера.
