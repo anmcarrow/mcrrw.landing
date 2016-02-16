@@ -1,0 +1,35 @@
+/* top menu */
+
+nav {
+	margin: 30px auto;
+        text-align: center;
+	}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: inline-block;
+    margin: auto;
+}
+
+nav li {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border: solid 1.5px;
+    border-color: #fff;
+    opacity: 0.5;
+    list-style-position: inside;
+    font: 28px 'Open Sans Condensed';
+    width: 90px;
+    padding: 2px 5px;
+    border: solid 1.5px;
+    margin: 5px;
+}
+
+nav li:hover {
+     opacity: 0.9;
+}
+
