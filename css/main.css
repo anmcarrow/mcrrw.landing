@@ -5,7 +5,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
 	background: #221f1a;
-	background: url(../img/back1.jpg);
+	background-image: url(../img/back1.jpg);
 	font-family: 'Open Sans Condensed', serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -93,9 +93,14 @@ nav li:hover {
 
 /* logo */
 
-#logo {
+section {
+margin: 15%;
+}
+
+logo {
 	display: block;
-	margin: 15% auto 100px;
+/*	margin: 12% auto 100px; */
+	margin: auto;
         text-align: center;
 	width: 155px;
 	height: 175px;
@@ -119,22 +124,23 @@ nav li:hover {
 }
 
 .social li{
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'FontAwesome';
- `  opacity: 0.7;
+    color: #fff;
+    opacity: 0.4;
     margin: auto;
-    width: 35px;
+    width: 40px;
     height: 35px;
     border: solid 0px;
     border-radius: 90px;
     display: inline-block;
     list-style: none;
-    padding: 5px 2px 5px 2px;
+    padding: 2px;
 }
 
 .social li:hover {
-    color: #fff;
-    font-size: 30px;
+    opacity: 0.8;
+    font-size: 31px;
 }
 
 /* shared block */
@@ -175,11 +181,14 @@ code, pre {
     margin: 0 0.1em;
 }
 
-#wrapper {
+wrapper {
 	max-width: 900px;
-        height: 100%;
+        min-height: 100%;
         margin: auto;
-}
+	+grain
+	}
+
+
 
 footer {
 	margin: auto;
