@@ -84,7 +84,8 @@ logo:hover , logo:focus {
 }
 
 .linkabout:hover {
-text-decoration: underline;
+text-shadow: 0 0 1em #b2b2b2;
+cursor: pointer}
 }
 
 /* social block */
