@@ -38,7 +38,8 @@ nav li:hover {
     opacity: 0.9;
     color: #fff;
     background: #e8e8e8;
-    text-shadow: 0 0 1em #e8e8e8;
+    text-shadow: 0 0 1em #e0e0e0;
+    cursor: pointer;
 }
 
 nav li.active {

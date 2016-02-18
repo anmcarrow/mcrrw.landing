@@ -59,12 +59,12 @@ margin: 8%;
 
 logo {
 	display: block;
-	margin: 17% auto 100px;
+	margin: 17% auto 17%;
         text-align: center;
 	width: 155px;
 	height: 175px;
 	background: url(../img/logo.svg);
-	opacity: 0.3;
+	opacity: 0.1;
 	}
 
 logo:hover , logo:focus {
@@ -72,10 +72,12 @@ logo:hover , logo:focus {
     -ms-transform: rotate(180deg); /* Для IE */
     -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
     -o-transform: rotate(180deg); /* Для Opera */
-    transform: rotate(180deg);
+    transform: rotate(180deg) scale(1.1);
+    opacity: 0.3;
 	}
 
 .linkabout {
+    margin-top: 0;
     color: black;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -84,8 +86,8 @@ logo:hover , logo:focus {
 }
 
 .linkabout:hover {
-text-shadow: 0 0 1em #b2b2b2;
-cursor: pointer}
+text-shadow: 0 0 1em #a6a6a6;
+cursor: pointer;
 }
 
 /* social block */
