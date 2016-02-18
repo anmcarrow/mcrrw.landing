@@ -75,6 +75,20 @@ logo:hover , logo:focus {
     transform: rotate(180deg);
 	}
 
+.linkabout {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.linkabout:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
 /* social block */
 
 .social {
@@ -101,6 +115,7 @@ logo:hover , logo:focus {
     display: inline-block;
     list-style: none;
     padding: 2px;
+    vertical-align: middle;
 }
 
 .social li:hover {
@@ -108,7 +123,7 @@ logo:hover , logo:focus {
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -o-transform: scale(1.5);
-    -moz-transform: scale(1.5s);
+    -moz-transform: scale(1.5);
 }
 
 /* shared block */
@@ -146,10 +161,10 @@ code, pre {
 }
 
 .animation {
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
 }
 
 .slowanimation {
