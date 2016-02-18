@@ -98,10 +98,22 @@ background: url(../img/avatar.jpg);
 border: solid 0px;
 width: 200px;
 height: 200px;
+padding: 3px;
+border:1px solid #e5e5e5;
+display:block;
 border-radius: 100px;
 margin: auto auto 17px;
 box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+.img-avatar:hover ,.img-avatar:focus {
+/* -moz-transform: rotate(15deg); /* Для Firefox */ 
+/*    -ms-transform: rotate(15deg);  */ /* Для IE */
+/*    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
+/*    -o-transform: rotate(15deg);  */ /* Для Opera */
+/*    transform: rotate(15deg); */
+}
+
 
 .wrapper {
     max-width: 500px;
@@ -143,3 +155,17 @@ code, pre {
     font-size: 18px;
     letter-spacing: 0.1em;
     margin: 0 0.1em;
+}
+
+/*заданы принудительно! проверить.*/
+i {
+font-style: italic;
+}
+
+b {
+font-weight:bold;
+}
+
+#input {
+display: none;
+}
