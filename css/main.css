@@ -76,6 +76,7 @@ logo:hover , logo:focus {
 	}
 
 .linkabout {
+    color: black;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -83,10 +84,7 @@ logo:hover , logo:focus {
 }
 
 .linkabout:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -moz-transform: scale(1.1);
+text-decoration: underline;
 }
 
 /* social block */
