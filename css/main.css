@@ -54,12 +54,12 @@ a:hover, a:focus {
 /* logo */
 
 section {
-margin: 8%;
+margin: 0;
 }
 
 logo {
 	display: block;
-	margin: 17% auto 17%;
+	margin: 10% auto 10%;
         text-align: center;
 	width: 155px;
 	height: 175px;
@@ -176,8 +176,8 @@ code, pre {
 }
 
 .wrapper {
-	max-width: 500px;
-        min-height: 100%;
+	max-height: 500px;
+        min-width: 100%;
         margin: auto;
 	}
 
@@ -186,7 +186,7 @@ footer {
         text-align: center;
 	position: absolute;
   left: 0;
-  bottom: -50;
+  bottom: 0;
   width: 100%;
   height: 50px;
   padding-top: 5px;
