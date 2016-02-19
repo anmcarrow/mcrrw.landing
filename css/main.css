@@ -86,7 +86,7 @@ logo:hover , logo:focus {
 }
 
 .linkabout:hover {
-text-shadow: 0 0 1em #a6a6a6;
+text-shadow: 0 0 1em #999999;
 cursor: pointer;
 }
 
