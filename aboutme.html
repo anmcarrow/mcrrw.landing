@@ -1,90 +1,70 @@
-<!doctype html>
 <html>
+
 <head>
-<meta HTTP-EQUIV="Expires" Content="Tue, 06 Oct 2015 12:40:56 GMT">
+  <meta HTTP-EQUIV="Expires" Content="Tue, 06 Oct 2015 12:40:56 GMT">
 
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-<meta Name="author" Content="Andrey Makarov, mailbox@pnprpg.ru">
+  <meta Name="author" Content="Andrey Makarov, mailbox@pnprpg.ru">
 
-    <link rel="stylesheet" href="css/backpages.css" type="text/css">
-        <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/backpages.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
 
-<link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<!--[if lt IE 9]>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-<!-- Markdown parser -->
-<script type="text/javascript" 
-src="http://simonwaldherr.github.io/micromarkdown.js/micromarkdown.js">
-</script>
+  <!-- Markdown parser -->
+
+  <script type="text/javascript" src="http://simonwaldherr.github.io/micromarkdown.js/dist/micromarkdown.min.js"></script>
+
 
 </head>
 
 <body>
 
-<nav>
+  <nav>
     <ul class="top-menu">
-        <li class="inactive"><a href="/" title="В начало">ГЛАВНАЯ</a></li>
-        <li class="active"><a href="/aboutme" title="Немного обо мне">ABOUT</a></li>
-        <li><a href="http://anmcarrow.deviantart.com" title="Образцы работ">ГАЛЕРЕЯ</a></li>
-        <li class="inactive"><a href="/wishlist" title="Список предпочтений">WISHLIST</a></li>
-        <li class="inactive"><a href="/links" title="Полезные ссылки">ССЫЛКИ</a></li>
-</ul>
-</nav>
+      <li class="inactive"><a href="/" title="В начало">ГЛАВНАЯ</a></li>
+      <li class="active"><a href="/aboutme" title="Немного обо мне">ABOUT</a></li>
+      <li><a href="http://anmcarrow.deviantart.com" title="Образцы работ">ГАЛЕРЕЯ</a></li>
+      <li class="inactive"><a href="/wishlist" title="Список предпочтений">WISHLIST</a></li>
+      <li class="inactive"><a href="/links" title="Полезные ссылки">ССЫЛКИ</a></li>
+    </ul>
+  </nav>
 
 
-<div class="wrapper">
+  <div class="wrapper">
+    <div class="img-avatar"></div>
 
-<div class="img-avatar"></div>
+    <p id="input">
 
-<p>Список тех «мелочей» которые мне нужны, но не необходимы. Тех самых штук, что обычно отступают под напором более актуальных финансовых затрат <em>(как-то: коммунальные платежи, культурная деятельность, организация мероприятий, etc.)</em>.</p>
 
-<xmp theme="Journal" style="display:none;">
+### Добро пожаловать!
 
-### Список тех «мелочей» которые мне нужны:
-... *но не необходимы*. Тех самых штук, что обычно отступают под напором более актуальных финансовых затрат **(как-то: коммунальные платежи, культурная деятельность, организация мероприятий, etc.)**
 
-</xmp>
 
-</div>
+#### pppp
 
+
+    </p>
+
+    <p id="output">
+    </p>
+    <hr>
+
+  </div>
 </body>
 
-<!-- MD parser scrypt -->
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter33516783 = new Ya.Metrika({
-                    id:33516783,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
+<script>
+  window.onload = function() {
+  var input=document.getElementById('input').innerHTML;
+ output=document.getElementById('output');
+  output.innerHTML = micromarkdown.parse(input);
+    };
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/33516783" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
 
 </html>
