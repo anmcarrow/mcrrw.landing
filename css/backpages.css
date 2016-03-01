@@ -179,11 +179,13 @@ padding-right: 3px;
 .emailme p {
 margin: 0;
 padding-top: 10px;
+
 }
 
 .emailme a {
     color: #fff;
     background: #464646;
+    margin: 20px auto;
     padding: 5px;
     text-align: center;
     text-decoration: none;
@@ -196,9 +198,48 @@ padding-top: 10px;
 }
 
 .emailme a:hover { 
+
     background: #6ab26d;
     box-shadow: 0 0 1em #999999;
     }
+
+/* links block */
+
+.projects a:hover{
+border-bottom: 1px dotted #999999;
+}
+
+.projects li {
+list-style-type: none;
+line-height: 1.7;
+   }
+
+.projects li:before {
+font-family: "FontAwesome";
+content: "\f0ac";
+color: #546d5a;
+font-size: 110%;
+margin: 5px;
+padding-right: 3px;
+   }
+
+.sociallinks a:hover{
+border-bottom: 1px dotted #999999;
+}
+
+.sociallinks li {
+list-style-type: none;
+line-height: 1.7;
+   }
+
+.sociallinks li:before {
+font-family: "FontAwesome";
+content: "\f292";
+color: #8bacbd;
+font-size: 110%;
+margin: 5px;
+padding-right: 3px;
+   }
 
 /* shared block */
 
