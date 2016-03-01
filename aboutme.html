@@ -1,6 +1,9 @@
 <html>
 
 <head>
+
+ <title>Немного обо мне</title>
+
   <meta HTTP-EQUIV="Expires" Content="Tue, 06 Oct 2015 12:40:56 GMT">
 
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -9,18 +12,16 @@
   <meta Name="author" Content="Andrey Makarov, mailbox@pnprpg.ru">
 
   <link rel="stylesheet" href="css/backpages.css" type="text/css">
+
   <link rel="stylesheet" href="css/menu.css" type="text/css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-  <!-- Markdown parser -->
-
-  <script type="text/javascript" src="http://simonwaldherr.github.io/micromarkdown.js/dist/micromarkdown.min.js"></script>
-
 
 </head>
 
@@ -36,35 +37,36 @@
     </ul>
   </nav>
 
-
   <div class="wrapper">
-    <div class="img-avatar"></div>
+<div class="img-avatar"></div>
+<div class=info>
+<strong>Имя:</strong> Андрей Макаров <br>
+<strong>Место:</strong> Россия, г. Екатеринбург
+</div>
 
-    <p id="input">
+<p>
+<h2>Интересы</h2>
+<ul class="interests">
+<li>Unix/Linux, телекоммуникации и ИТ</li>
+<li>Иллюстративная графика, традиционные ремёсла и DIY</li>
+<li>Настольные ролевые игры, индустрия и геймдизайн</li>
+</ul>
 
+<h2>Если вам нужно</h2>
+<ul class="cvalifications">
+<li>Настроить VDS/VPS/Dedicated
+<li>Спроектировать Unix/Linux сервис</li>
+<li>Запустить, поднять, перенести интернет-сайт...</li>
+<li>Нарисовать иллюстрации/карты для вашей книги...</li>
+<li>Организовать и провести НРИ-мероприятие...</li>
+<li>Записать подкаст или интервью...</li>
+<li>Просто проконсультироваться...</li>
+</ul>
+</p>
 
-### Добро пожаловать!
-
-
-
-#### pppp
-
-
-    </p>
-
-    <p id="output">
-    </p>
-    <hr>
-
-  </div>
+<p class="emailme">
+<a href="mailo:mailbox@anmcarrow.me" target="_blank" title="Прямо на e-mail">Напишите мне!</a>
+</p>
 </body>
-
-<script>
-  window.onload = function() {
-  var input=document.getElementById('input').innerHTML;
- output=document.getElementById('output');
-  output.innerHTML = micromarkdown.parse(input);
-    };
-</script>
 
 </html>
