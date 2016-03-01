@@ -1,11 +1,6 @@
 RewriteEngine on
 RewriteBase /
 
-#Redirect 302 /links.html /
-#Redirect 302 /links /
-
-#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
-#RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
 RewriteRule (.*) /$1.html [L]
