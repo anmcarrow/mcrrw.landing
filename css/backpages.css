@@ -257,6 +257,32 @@ margin: 5px;
 padding-right: 3px;
    }
 
+
+/* wishlist block */
+
+/* links block */
+
+.img-wish {
+background: url(../img/wishlist.jpg);
+border: solid 0px;
+width: 200px;
+height: 200px;
+padding: 3px;
+border:1px solid #e5e5e5;
+display:block;
+border-radius: 100px;
+margin: auto auto 17px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.img-wish:hover ,.img-avatar:focus {
+box-shadow: 0 0 1.5em #999999;
+}
+
 /* shared block */
 
 strong {
