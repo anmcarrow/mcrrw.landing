@@ -260,8 +260,6 @@ padding-right: 3px;
 
 /* wishlist block */
 
-/* links block */
-
 .img-wish {
 background: url(../img/wishlist.jpg);
 border: solid 0px;
@@ -279,7 +277,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     -o-transition: all 0.3s ease-in-out;
 }
 
-.img-wish:hover ,.img-avatar:focus {
+.img-wish:hover ,.img-wish:focus {
 box-shadow: 0 0 1.5em #999999;
 }
 
