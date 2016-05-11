@@ -3,7 +3,7 @@ RewriteBase /
 
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
-RewriteRule (.*) /$1.html [L]
+RewriteRule ^(.*) /$1.html [L]
 
 DirectoryIndex index.html
 
