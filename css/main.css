@@ -85,14 +85,14 @@ logo:hover , logo:focus {
 } */
 
 
-.img-avatar {
+.img-avatar-en {
 background: url(../img/avatar.jpg);
 border: solid 0px;
 width: 200px;
 height: 200px;
 padding: 3px;
 border:1px solid #e5e5e5;
-margin: 7% auto 7%;
+margin: 80px auto 45px;
 text-align: center;
 display:block;
 border-radius: 100px;
@@ -103,7 +103,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     -o-transition: all 0.3s ease-in-out;
 }
 
-.img-avatar:hover ,.img-avatar:focus {
+.img-avatar-en:hover ,.img-avatar:focus {
 box-shadow: 0 0 1.5em #999999;
 }
 
