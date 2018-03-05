@@ -26,18 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-h1 { 
+h1 {
     font-size: 55px;
     line-height: 30px;
 }
 
-h2 { 
+h2 {
     font-size: 48px;
     line-height: 39px;
     margin-top: 20px;
 }
 
-a { 
+a {
     color: #464646;
     text-decoration: none;
     text-transform: uppercase;
@@ -45,7 +45,7 @@ a {
     -webkit-transition-duration: 0.1s;
 }
 
-a:hover, a:focus { 
+a:hover, a:focus {
     color: #464646;
 }
 
@@ -83,6 +83,31 @@ logo:hover , logo:focus {
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
 } */
+
+
+.img-avatar {
+background: url(../img/avatar.jpg);
+border: solid 0px;
+width: 200px;
+height: 200px;
+padding: 3px;
+border:1px solid #e5e5e5;
+margin: 7% auto 7%;
+text-align: center;
+display:block;
+border-radius: 100px;
+margin: auto auto 17px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.img-avatar:hover ,.img-avatar:focus {
+box-shadow: 0 0 1.5em #999999;
+}
+
 
 .linkabout i{
 font-size: 115%;
@@ -146,12 +171,12 @@ ol li {
     list-style: decimal;
 }
 
-em { 
-    font-style: italic; 
+em {
+    font-style: italic;
 }
 
-strong { 
-    font-weight: bold; 
+strong {
+    font-weight: bold;
 }
 
 small {
