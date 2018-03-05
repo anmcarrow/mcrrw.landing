@@ -1,0 +1,330 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+/* Setup
+*********************************************************************************************/
+
+body {
+	background: #ffffff;
+	background: transparent url(../img/back2.jpg);
+	font-family: 'PT Sans', serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	color: #404040;
+	text-rendering: optimizeLegibility;
+}
+
+/* Typography
+*********************************************************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed';
+	color: #464646;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+
+h1 { 
+	margin: 0;
+    font-size: 45px;
+    line-height: 39px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h2 { 
+    font-size: 30px;
+    line-height: 39px;
+    margin-top: 20px;
+}
+
+a { 
+    color: #464646;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+}
+
+
+p {
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0;
+    }
+
+p a { 
+    color: #fff;
+    background: #464646;
+    font-size: 12px;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    -moz-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+}
+
+p a:hover, p a:focus { 
+    background: #868686;
+}
+
+code, pre {
+    font-family: 'Source Sans Pro', monospace;
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin: 0 0.1em;
+}
+
+img {
+    background: #fff;	
+    max-width: 490px;
+    max-height: 490px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+    padding: 3px;
+    border:1px solid #e5e5e5;
+    display:block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.wrapper {
+    max-width: 450px;
+/*    background: rgba(255, 255, 255, 0.2); */
+    border-radius: 5px;
+    margin: auto auto 50px auto;
+    text-align: justify;
+}
+
+
+/* aboutme block */
+
+.img-avatar {
+background: url(../img/avatar.jpg);
+border: solid 0px;
+width: 200px;
+height: 200px;
+padding: 3px;
+border:1px solid #e5e5e5;
+display:block;
+border-radius: 100px;
+margin: auto auto 17px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.img-avatar:hover ,.img-avatar:focus {
+box-shadow: 0 0 1.5em #999999;
+}
+
+.info {
+text-align: center;
+}
+
+.info strong: {
+font-family: 'Open Sans Condensed';
+}
+
+.interests ul {
+margin-left: 10px;
+}
+
+.cvalifications ul {
+margin-left: 10px;
+}
+
+.interests li {
+list-style-type: none;
+line-height: 1.7;
+   }
+
+.interests li:before {
+font-family: "FontAwesome";
+content: "\f02e";
+color: #FF4F64;
+font-size: 110%;
+margin: 5px;
+padding-right: 3px;
+   }
+
+.cvalifications li {
+list-style-type: none;
+line-height: 1.7;
+   }
+
+.cvalifications li:before {
+font-family: "FontAwesome";
+content: "\f00c";
+color: #73c478;
+font-size: 110%;
+margin: 5px;
+padding-right: 3px;
+   }
+
+.emailme p {
+margin: 0;
+padding-top: 10px;
+
+}
+
+.emailme a {
+    color: #fff;
+    background: #464646;
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+}
+
+.emailme a:hover { 
+
+    background: #6ab26d;
+    box-shadow: 0 0 1em #999999;
+    }
+
+/* links block */
+
+.img-link {
+background: url(../img/links.jpg);
+border: solid 0px;
+width: 200px;
+height: 200px;
+padding: 3px;
+border:1px solid #e5e5e5;
+display:block;
+border-radius: 100px;
+margin: auto auto 17px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.img-link:hover ,.img-avatar:focus {
+box-shadow: 0 0 1.5em #999999;
+}
+
+.projects a:hover{
+border-bottom: 1px dotted #999999;
+}
+
+.projects li {
+list-style-type: none;
+line-height: 1.7;
+   }
+
+.projects li:before {
+font-family: "FontAwesome";
+content: "\f0ac";
+color: #546d5a;
+font-size: 110%;
+margin: 5px;
+padding-right: 3px;
+   }
+
+.sociallinks a:hover{
+border-bottom: 1px dotted #999999;
+}
+
+.sociallinks li {
+list-style-type: none;
+line-height: 1.7;
+   }
+
+.sociallinks li:before {
+font-family: "FontAwesome";
+content: "\f292";
+color: #8bacbd;
+font-size: 110%;
+margin: 5px;
+padding-right: 3px;
+   }
+
+
+/* wishlist block */
+
+.img-wish {
+background: url(../img/wishlist.jpg);
+border: solid 0px;
+width: 200px;
+height: 200px;
+padding: 3px;
+border:1px solid #e5e5e5;
+display:block;
+border-radius: 100px;
+margin: auto auto 17px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.img-wish:hover ,.img-wish:focus {
+box-shadow: 0 0 1.5em #999999;
+}
+
+/* shared block */
+
+strong {
+    font-family: 'Open Sans Condensed';
+    color: #464646;
+}
+
+ul li {
+    list-style: square;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+em { 
+    font-style: italic; 
+}
+
+strong { 
+    font-weight: bold; 
+}
+
+small {
+     font-size: 14px;
+}
+
+code, pre {
+    font-family: 'Source Sans Pro', monospace;
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin: 0 0.1em;
+}
+
+/*заданы принудительно! проверить.*/
+i {
+font-style: italic;
+}
+
+b {
+font-weight:bold;
+}
+
+#input {
+display: none;
+}
